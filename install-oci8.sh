@@ -1,3 +1,4 @@
+#!/bin/bash
 apt install -y libaio1 
  if [ "$(php -m | grep oci8)" != "oci8" ]; then apt install -y unzip libaio1 
     mkdir -p /home/site/ini 
